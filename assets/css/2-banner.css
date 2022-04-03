@@ -1,0 +1,26 @@
+.banner__container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.banner__imagen {
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media screen and (min-width: 480px) {
+    /* .banner__imagen {
+        width: 360px;
+        height: 192px;
+    } */
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {    
+    /* .banner__imagen {
+        width: 768px;
+        height: 352px;
+    } */
+}

@@ -3,79 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0 "> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="#">
     <title>Alura Geek</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/1-header.css">
     <link rel="stylesheet" href="./assets/css/2-banner.css">
-
+    <link rel="stylesheet" href="./assets/css/3-productos.css">
+    <link rel="stylesheet" href="./assets/css/4-contacto.css">
+    <link rel="stylesheet" href="./assets/css/5-footer.css">
+    <link rel="stylesheet" href="./assets/css/botones.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <img src="./assets/img/1-header/logo-AluraGeek.png" alt="Logo de la empresa AluraGeek">
-            </div>
-            <input type="button" value="Login">
-            <div class="header__buscador">
-                <img src="" alt="imagen lupa buscador">
-                <input type="text" placeholder="¿Qué estás buscando?">
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <section class="banner">
-            <div class="banner__container">
-                <div class="banner__imagen">
-                    <img src="./assets/img/2-banner/banner-image.png" alt="imagen de banner">
+    <div class="main__container">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo-container">
+                    <img class="header__logo" src="./assets/img/1-header/logo-AluraGeek.png" alt="Logo de la empresa AluraGeek">
                 </div>
-                <div class="banner__texto">
-                    <h3>Febrero Promocional</h3>
-                    <h3>Productos seleccionados con 33% de descuento</h3>
-                    <input type="button" value="Ver Consolas">
+                <input class="button-empty" type="button" value="Login">
+                <div class="header__buscador">
+                    <input id="buscador" type="text" placeholder="¿Qué estás buscando?">
+                    <img src="./assets/img/1-header/lupa-buscador.png" alt="imagen lupa buscador">
                 </div>
             </div>
-        </section>
+        </header>
 
-        <section class="productos">
-            <div class="productos__container">
-
-            </div>
-        </section>
-
-        <section class="contacto">
-            <div class="contacto__container">
-                <div class="contacto__izquierda">
-                    <img class="contacto__imagen" src="./assets/img/4-contacto/logo.png" alt="logo AluraGeek">
-                    <a href="#"><h3 class="contacto__link">Quienes somos</h3></a>
-                    <a href="#"><h3 class="contacto__link">Política de privacidad</h3></a>
-                    <a href="#"><h3 class="contacto__link">Programa de fidelidad</h3></a>
-                    <a href="#"><h3 class="contacto__link">Nuestras tiendas</h3></a>
-                    <a href="#"><h3 class="contacto__link">Quiero ser franquiciado</h3></a>
-                    <a href="#"><h3 class="contacto__link">Anúncie aquí</h3></a>
+        <main>
+            <section class="banner">
+                <div class="banner__container">
+                    <div class="banner__imagen-contenedor">
+                        <img class="banner__imagen" src="./assets/img/2-banner/photo-full.png" alt="imagen de banner">
+                    </div>
+                    <div class="banner__texto">
+                        <h3>Febrero Promocional</h3>
+                        <h3>Productos seleccionados con 33% de descuento</h3>
+                        <input class="button-full" type="button" value="Ver Consolas">
+                    </div>
                 </div>
-                <div class="contacto__derecha">
-                    <h2 class="contacto__subtitulo">Hable con nosotros</h2>
-                    <input class="contacto__input-text" type="text" placeholder="Nombre">
-                    <textarea class="contacto__input-message" name="" id="" cols="30" rows="10" placeholder="Escribre tu mensaje"></textarea>
-                    <input class="button-lleno button-contacto" type="submit" value="Enviar mensaje">
+            </section>
+
+            <section class="productos">
+                <div class="productos__container">
+
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="footer">
-            <footer>
-                <div class="footer__container">
-                    <p>Desarrollado por Matías Albornoz</p>
-                    <p>2022</p>
+            <section class="contacto">
+                <div class="contacto__container">
+                    <div class="contacto__izquierda">
+                        <img class="contacto__imagen" src="./assets/img/4-contacto/logo.png" alt="logo AluraGeek">
+                        <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Quienes somos</h3></a>
+                        <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Política de privacidad</h3></a>
+                        <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Programa de fidelidad</h3></a>
+                        <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Nuestras tiendas</h3></a>
+                        <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Quiero ser franquiciado</h3></a>
+                        <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Anúncie aquí</h3></a>
+                    </div>
+                    <div class="contacto__derecha">
+                        <h2 class="contacto__subtitulo contacto__item">Hable con nosotros</h2>
+                        <input class="contacto__input-text contacto__item" type="text" placeholder="Nombre">
+                        <textarea class="contacto__input-message contacto__item" name="" id="" cols="30" rows="10" placeholder="Escribre tu mensaje"></textarea>
+                        <input class="button-full button-contacto" type="submit" value="Enviar mensaje">
+                    </div>
                 </div>
-            </footer>
-        </section>
+            </section>
 
+            <section class="footer">
+                <footer>
+                    <div class="footer__container">
+                        <div class="footer__contenido">
+                            <p>Desarrollado por Matías Albornoz</p>
+                            <p>2022</p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
 
-        
-    </main>
-    
+        </main>
+    </div>
 </body>
 </html>

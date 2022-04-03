@@ -1,0 +1,26 @@
+/* Botones en común */
+.button-empty, .button-full {
+    font-family: 'Raleway', sans-serif;
+    font-size: .875rem;
+    line-height: 16px;
+    font-weight: 600;
+    border-color: rgba(42, 122, 228, 1);
+}
+
+/* Botón vacío */
+.button-empty {
+    color: rgba(42, 122, 228, 1);
+    background: rgba(255, 255, 255, 1);
+    border-style: hidden;
+    border: 2px solid;
+    padding: .5rem 3rem;
+}
+
+/* Botón relleno */
+.button-full {
+    background: rgba(42, 122, 228, 1);
+    color: rgba(255, 255, 255, 1);
+    /* border-style: hidden; */
+    /* border: 2px solid; */
+    padding: .5rem 3rem;
+}

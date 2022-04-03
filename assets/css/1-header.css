@@ -1,0 +1,25 @@
+.header__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: .75rem 0;
+
+    /* position: absolute; */
+
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+    /* padding: 2rem; */
+}
+
+.header__logo {
+    width: 122px;
+}
+
+@media screen and (max-width: 480px) {
+    #buscador {
+        display: none;
+    }    
+}
+
