@@ -1,6 +1,7 @@
 .header__container {
     width: 1440px;
     margin: 0 auto;
+    background: #FFFFFF;
 }
 
 .header__contenido {

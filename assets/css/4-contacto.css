@@ -3,10 +3,10 @@
 }
 
 .contacto__container {
+    background: #EAF2FD;
     width: 1440px;
     margin: 0 auto;
     display: flex;
-    background: #EAF2FD;
     justify-content: center;
 }
 
