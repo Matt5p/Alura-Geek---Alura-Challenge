@@ -13,6 +13,11 @@
     justify-content: center;
 }
 
+.footer__text {
+    font-weight: 500;
+}
+
+
 
 @media screen and (max-width: 480px) {
 

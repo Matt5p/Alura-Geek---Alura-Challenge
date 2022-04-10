@@ -1,20 +1,28 @@
 .header__container {
-    width: 100%;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header__contenido {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-
     padding: .75rem 0;
-
-    /* position: absolute; */
-
-    justify-content: space-around;
-    box-sizing: border-box;
-    
-    /* padding: 2rem; */
+    justify-content: space-between;
 }
 
 .header__logo {
     width: 122px;
+}
+
+#buscador {
+    background: url(../img/1-header/lupa-buscador.png);
+    /* background: #F5F5F5;  */
+    background-repeat: no-repeat;
+    background-position: right  ;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
 }
 
 @media screen and (max-width: 480px) {
