@@ -38,6 +38,15 @@
 .item__unit {
     margin: 1rem 0rem 2rem 0rem;
     /* padding: 0 .875rem; */
+    line-height: 1rem;
+}
+
+.item__description, .item__price {
+    color: rgba(70, 70, 70, 1);
+}
+
+.item__price {
+    font-weight: 700;
 }
 
 .item__link, .title__link {
