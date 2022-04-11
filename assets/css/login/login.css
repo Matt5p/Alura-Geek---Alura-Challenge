@@ -1,0 +1,37 @@
+.login__container {
+    background: #E5E5E5;
+    padding: 10rem 0;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.login__form {
+    width: 423px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.login__title {
+    margin-bottom: 2rem;
+}
+
+.login__email, .login__password {
+    border-radius: .25rem;
+    border: none;
+    box-shadow: 0 1px #C8C8C8;
+}
+
+.login__item {
+    margin: 1rem 0;
+    padding: 1rem .5rem;
+}
+
+.button__login {
+    background: rgba(42, 122, 228, 1);
+    border-color: rgba(42, 122, 228, 1);
+    color: rgba(255, 255, 255, 1);
+}

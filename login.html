@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0 "> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="#">
+    <title>Alura Geek</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/0-main.css">
+    <link rel="stylesheet" href="./assets/css/1-header.css">
+    <link rel="stylesheet" href="./assets/css/2-banner.css">
+    <!-- <link rel="stylesheet" href="./assets/css/3-productos.css"> -->
+    <link rel="stylesheet" href="./assets/css/4-contacto.css">
+    <link rel="stylesheet" href="./assets/css/5-footer.css">
+    <link rel="stylesheet" href="./assets/css/login/login.css">
+    <link rel="stylesheet" href="./assets/css/botones.css">
+</head>
+<body>
+    <div class="main__container">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__contenido">
+                    <div class="header__logo-container">
+                        <a href="./index.html"><img class="header__logo" src="./assets/img/1-header/logo-AluraGeek.png" alt="Logo de la empresa AluraGeek"></a>
+                    </div>
+                    <div class="header__buscador">
+                        <input id="buscador" type="text" placeholder="¿Qué estás buscando?">
+                        <!-- <img src="./assets/img/1-header/lupa-buscador.png" alt="imagen lupa buscador"> -->
+                    </div>
+                    <a href="./login.html"><input class="button-empty" type="button" value="Login"></a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="login">
+                <div class="login__container">
+                    <div class="login__form">
+                        <h2 class="login__title">Iniciar Sesión</h2>
+                        <input class="login__email login__item" type="email" placeholder="Escriba su correo electronico" required>
+                        <input class="login__password login__item" type="password" placeholder="Escriba su contraseña" required>
+                        <input class="button__login login__item" type="submit">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Sección de contacto -->
+            <section class="contacto">
+                <div class="contacto__container">
+                    <!-- <img class="contacto__imagen" src="./assets/img/4-contacto/logo.png" alt="logo AluraGeek"> -->
+                    <div class="contacto__izquierda">
+                        <div class="contacto__izquierda-contenido">
+                            <img class="contacto__imagen" src="./assets/img/4-contacto/logo.png" alt="logo AluraGeek">
+                            <div class="contacto__link-contenedor">
+                                <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Quienes somos</h3></a>
+                                <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Política de privacidad</h3></a>
+                                <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Programa de fidelidad</h3></a>
+                                <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Nuestras tiendas</h3></a>
+                                <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Quiero ser franquiciado</h3></a>
+                                <a class="contacto__link" href="#"><h3 class="contacto__link-texto">Anúncie aquí</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacto__derecha">
+                        <div class="contacto__derecha-contenido">
+                            <h2 class="contacto__subtitulo contacto__item">Hable con nosotros</h2>
+                            <input class="contacto__input-text contacto__item" type="text" placeholder="Nombre">
+                            <textarea class="contacto__input-message contacto__item" name="" id="" cols="30" rows="10" placeholder="Escribre tu mensaje"></textarea>
+                            <input class="button-full button-contacto" type="submit" value="Enviar mensaje">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer">
+                <footer>
+                    <div class="footer__container">
+                        <div class="footer__contenido">
+                            <h4 class="footer__text">Desarrollado por Matías Albornoz</h4>
+                            <h4 class="footer__text">2022</h4>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+
+        </main>
+    </div>
+</body>
+</html>
