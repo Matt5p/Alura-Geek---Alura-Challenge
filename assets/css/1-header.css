@@ -26,9 +26,46 @@
     padding: .5rem 1rem;
 }
 
-@media screen and (max-width: 480px) {
+#img-search {
+    display: none;
+}
+
+
+/* Mobile up to 480px */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .header__container {
+        width: 100%;
+    }
+    
     #buscador {
         display: none;
-    }    
+    }
+
+    #img-search {
+        display: flex;
+    }
+
+    .header__buscador {
+        order: 2;
+    }
+
+    .header__login-button {
+        order: 1;
+    }
 }
+
+/* Tablet to laptop max 1024px */ 
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .header__container {
+        width: 100%;
+    }
+}
+
+/* Desktop */ 
+/* @media screen and (min-width: 1025px) {
+    .header__container {
+        width: 100%;
+    }
+} */
+
 

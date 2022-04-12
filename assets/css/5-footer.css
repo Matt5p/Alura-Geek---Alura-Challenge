@@ -24,8 +24,8 @@
 }
 
 
-
-@media screen and (min-width: 320px) and (max-width: 1440px) {
+/* Responsive */
+@media screen and (min-width: 0px) and (max-width: 1440px) {
     .footer__container {
         width: 100%;
     }

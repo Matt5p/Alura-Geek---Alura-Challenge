@@ -35,3 +35,36 @@
     border-color: rgba(42, 122, 228, 1);
     color: rgba(255, 255, 255, 1);
 }
+
+/* Mobile up to 480px */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .login__container {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .login__form {
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+/* Tablet to laptop max 1024px */ 
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .login__container {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .login__form {
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+/* Desktop */ 
+/* @media screen and (min-width: 1025px) {
+    .login__container {
+        width: 100%;
+    }
+} */
